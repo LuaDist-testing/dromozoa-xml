@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-xml"
-version = "1.2-1"
+version = "1.3-1"
 -- LuaDist source
 source = {
-  tag = "1.2-1",
+  tag = "1.3-1",
   url = "git://github.com/LuaDist-testing/dromozoa-xml.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-xml/archive/v1.2.tar.gz";
---   file = "dromozoa-xml-1.2.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-xml/archive/v1.3.tar.gz";
+--   file = "dromozoa-xml-1.3.tar.gz";
 -- }
 description = {
   summary = "XML parser and toolkit";
