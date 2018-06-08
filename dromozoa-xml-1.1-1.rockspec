@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-xml"
-version = "1.0-1"
+version = "1.1-1"
 -- LuaDist source
 source = {
-  tag = "1.0-1",
+  tag = "1.1-1",
   url = "git://github.com/LuaDist-testing/dromozoa-xml.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-xml/archive/v1.0.tar.gz";
---   file = "dromozoa-xml-1.0.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-xml/archive/v1.1.tar.gz";
+--   file = "dromozoa-xml-1.1.tar.gz";
 -- }
 description = {
   summary = "XML parser and toolkit";
@@ -25,11 +25,11 @@ build = {
   type = "builtin";
   modules = {
     ["dromozoa.xml"] = "dromozoa/xml.lua";
-    ["dromozoa.xml.element"] = "dromozoa/xml/element.lua";
-    ["dromozoa.xml.escape"] = "dromozoa/xml/escape.lua";
-    ["dromozoa.xml.node_list"] = "dromozoa/xml/node_list.lua";
     ["dromozoa.xml.parser"] = "dromozoa/xml/parser.lua";
-    ["dromozoa.xml.selectors"] = "dromozoa/xml/selectors.lua";
-    ["dromozoa.xml.write"] = "dromozoa/xml/write.lua";
+    ["dromozoa.xml.element"] = "dromozoa/xml/element.lua";
+    ["dromozoa.xml.selection"] = "dromozoa/xml/selection.lua";
+    ["dromozoa.xml.selector"] = "dromozoa/xml/selector.lua";
+    ["dromozoa.xml.selector_generator"] = "dromozoa/xml/selector_generator.lua";
+    ["dromozoa.xml.selector_parser"] = "dromozoa/xml/selector_parser.lua";
   };
 }
